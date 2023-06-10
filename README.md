@@ -4,7 +4,7 @@
 The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics (BTS) tracks the on-time performance of domestic flights operated by large air carriers. Summary information on the number of on-time, delayed, canceled and diverted flights appears in DOT's monthly Air Travel Consumer Report, published about 30 days after the month's end, as well as in summary tables posted on this website. BTS began collecting details on the causes of flight delays in June 2003. Summary statistics and raw data are made available to the public at the time the Air Travel Consumer Report is released.
 
 
-# Delay Problem
+## Delay Problem
 
 The airlines report the causes of delays in five broad categories:
 1. Air Carrier : The cause of the cancellation or delay was due to circumstances within the airline's control (e.g. maintenance or crew problems, aircraft cleaning, baggage loading, fueling, etc.)
@@ -13,5 +13,8 @@ The airlines report the causes of delays in five broad categories:
 4. Late-arriving aircraft : A previous flight with same aircraft arrived late, causing the present flight to depart late.
 5. Security : Delays or cancellations caused by evacuation of a terminal or concourse, re-boarding of aircraft because of security breach, inoperative screening equipment and/or long lines in excess of 29 minutes at screening areas.
 
-(Sources : United States Department of Transportation https://www.bts.dot.gov/) 
+(Source : [United States Department of Transportation](https://www.bts.dot.gov/) 
 
+
+## Get Data
+I used the [dataset](https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp) from June 2003 to March 2023
