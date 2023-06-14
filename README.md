@@ -22,3 +22,4 @@ I used the [dataset](https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp) 
 ### 2. Data Cleansing
 Data cleansing, also known as data cleaning or data scrubbing, refers to the process of identifying and correcting or removing errors, inconsistencies, and inaccuracies in a dataset. It is an essential step in data management and analysis to ensure that data is accurate, reliable, and consistent.
 After I download the dataset, I will open the dataset (CSV file). I use microsoft excel 2021 to process the dataset. now we can see this dataset that we haven't processed yet.
+![Data Cleansing]
