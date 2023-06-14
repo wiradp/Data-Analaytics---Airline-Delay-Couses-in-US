@@ -21,5 +21,28 @@ I used the [dataset](https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp) 
 
 ### 2. Data Cleansing
 Data cleansing, also known as data cleaning or data scrubbing, refers to the process of identifying and correcting or removing errors, inconsistencies, and inaccuracies in a dataset. It is an essential step in data management and analysis to ensure that data is accurate, reliable, and consistent.
-After I download the dataset, I will open the dataset (CSV file). I use microsoft excel 2021 to process the dataset. now we can see this dataset that we haven't processed yet.
-![Data Cleansing]
+After I download the dataset, I will open the dataset (CSV file). I use microsoft excel 2021 to process the dataset. now we can see this dataset that we haven't processed yet. Now block coloum A and choose text to colums on the data tab.
+![Data Cleansing2](img/dataclsn2.jpg)
+
+now we will see the result of our table transform. There are 21 columns
+
+![Data Cleansing3](img/dataclsn3.jpg)
+
+We will change the data type containing number to number and string to text. and check for duplicate data
+![Data Cleansing4](img/dataclsn4.jpg)
+
+As we see in the airport_name column, there are state, city and airport names in one column. as an example : Albany, GA: Southwest Georgia Regional. we will separate this information into three sections. First we will separate the cities. by selecting text to columns on the Data tab
+
+![Data Cleansing5](img/dataclsn5.jpg)
+
+Do the same for cities and states
+![Data Cleansing6](img/dataclsn6.jpg)
+
+Now we have to remove empty spaces from the columns we have separated earlier. we will use the =TRIM formula on the empty columns
+![Data Cleansing7](img/dataclsn7.jpg)
+
+Don't forget to copy and paste as value. do the same for the state and city columns. After we separated one information into several columns, now we will combine two information into one column. as we see in column A (year) and B (month). we will combine the two information into one column by using function =Date(Year;Month;Date). However, because we don't know what date it is, we assume it is the first date.
+![Data Cleansing8](img/dataclsn8.jpg)
+
+change date format to mmm-yy in formal cells
+![Data Cleansing9](img/dataclsn9.jpg)
