@@ -1,4 +1,4 @@
-# Data Analaytics - Airline Delay Couses in US
+# Data Analaytics - Airline Delay Causes in US
 
 
 The U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics (BTS) tracks the on-time performance of domestic flights operated by large air carriers. Summary information on the number of on-time, delayed, canceled and diverted flights appears in DOT's monthly Air Travel Consumer Report, published about 30 days after the month's end, as well as in summary tables posted on this website. BTS began collecting details on the causes of flight delays in June 2003. Summary statistics and raw data are made available to the public at the time the Air Travel Consumer Report is released.
@@ -16,5 +16,9 @@ The airlines report the causes of delays in five broad categories:
 (Source : [United States Department of Transportation](https://www.bts.dot.gov/) 
 
 
-## Get Data
-I used the [dataset](https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp) from June 2003 to March 2023
+### 1. Get Data
+I used the [dataset](https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp) from June 2003 to March 2023 which is available in the dataset but we are free to use any period as long as the dataset is available.  
+
+### 2. Data Cleansing
+Data cleansing, also known as data cleaning or data scrubbing, refers to the process of identifying and correcting or removing errors, inconsistencies, and inaccuracies in a dataset. It is an essential step in data management and analysis to ensure that data is accurate, reliable, and consistent.
+After I download the dataset, I will open the dataset (CSV file). I use microsoft excel 2021 to process the dataset. now we can see this dataset that we haven't processed yet.
