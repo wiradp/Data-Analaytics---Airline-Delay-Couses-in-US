@@ -46,3 +46,6 @@ Don't forget to copy and paste as value. do the same for the state and city colu
 
 change date format to mmm-yy in formal cells
 ![Data Cleansing9](img/dataclsn9.jpg)
+
+Because we just want to analyze the flight delay case, I will delete the columns from arr_flight to arr_diverted. Keep in mind, if there is data that you don't know or don't need to include in your analysis, then it is better to delete it, this will make your analysis more consistent.
+
