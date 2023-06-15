@@ -49,3 +49,6 @@ change date format to mmm-yy in formal cells
 
 Because we just want to analyze the flight delay case, I will delete the columns from arr_flight to arr_diverted. Keep in mind, if there is data that you don't know or don't need to include in your analysis, then it is better to delete it, this will make your analysis more consistent.
 
+When we convert the dataset from CSV to excel the data in the arr_delay to late_aircraft_delay columns look like decimal numbers, but if you want to display fewer decimal numbers using decrease decimal on the number format tab it cannot be done. we can use another way by replacing the .00 numbers with empty numbers in the find and replace feature.
+![Data Cleansing10](img/dataclsn10.jpg)
+
