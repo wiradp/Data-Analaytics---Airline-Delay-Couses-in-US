@@ -52,3 +52,10 @@ Because we just want to analyze the flight delay case, I will delete the columns
 When we convert the dataset from CSV to excel the data in the arr_delay to late_aircraft_delay columns look like decimal numbers, but if you want to display fewer decimal numbers using decrease decimal on the number format tab it cannot be done. we can use another way by replacing the .00 numbers with empty numbers in the find and replace feature.
 ![Data Cleansing10](img/dataclsn10.jpg)
 
+
+Now, the data is ready to be transformed into a dashboard
+![Data Cleansing11](img/dataclsn11.jpg)
+
+### 3. Data Visualization
+I use tableau public to visualize the dataset that we have processed earlier. Open the application then connect to the dataset
+
